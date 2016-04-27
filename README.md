@@ -18,3 +18,5 @@ It has 4 modules:
 In order to create war execute following command: mvn -P=build clean package
 
 P.S. I prefer to use IntelliJ IDEA IDE with Scala plugin installed.
+
+https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
