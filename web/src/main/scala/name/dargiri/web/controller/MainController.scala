@@ -1,26 +1,25 @@
-package name.dargiri.web.controller
+package my.scala.web.controller
 
 import org.springframework.stereotype.Controller
 import org.springframework.web.bind.annotation.{RestController, RequestMethod, PathVariable, RequestMapping}
 import org.springframework.web.servlet.ModelAndView
-import name.dargiri.web.util.spring.LayoutModelAndView
-import name.dargiri.data.dto.PersonDTO
+import my.scala.web.util.spring.LayoutModelAndView
+import my.scala.data.dto.PersonDTO
 import java.util.UUID
-import name.dargiri.data.service.PersonService
+import my.scala.data.service.PersonService
 import org.springframework.beans.factory.annotation.Autowired
-import name.dargiri.web.controller.MainController.PersonForm
+import my.scala.web.controller.PersonForm
 import scala.beans.BeanProperty
 
-object MainController {
+object MainController {}
 
-  class PersonForm {
-    @BeanProperty
-    var id: UUID = _
-    @BeanProperty
-    var username: String = _
-  }
-
+class PersonForm {
+  @BeanProperty
+  var id: UUID = _
+  @BeanProperty
+  var username: String = _
 }
+
 
 /**
   * Created by dionis on 2/2/14.
@@ -39,7 +38,7 @@ class MainController {
     mav.addObject("people", all)*/
     var personForm: PersonForm = new PersonForm
     personForm.username = "Madhu"
-    personForm.id = new UUID(333l,333l)
+    personForm.id = new UUID(333l, 333l)
     return personForm
   }
 
@@ -57,7 +56,7 @@ class MainController {
   }
 
 
-  def toDTO(personForm: MainController.PersonForm): PersonDTO = {
+  def toDTO(personForm: PersonForm): PersonDTO = {
     PersonDTO(personForm.id, personForm.username)
   }
 

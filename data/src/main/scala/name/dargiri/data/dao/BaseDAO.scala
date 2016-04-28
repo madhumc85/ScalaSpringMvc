@@ -1,9 +1,9 @@
-package name.dargiri.data.dao
+package my.scala.data.dao
 
 import java.io.{Serializable => JSerial}
-import name.dargiri.data.model.Model
+import my.scala.data.model.Model
 
-import name.dargiri.util.toOption
+import my.scala.util.toOption
 
 /**
   * Created by dionis on 2/1/14.

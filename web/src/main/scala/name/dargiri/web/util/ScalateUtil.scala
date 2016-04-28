@@ -1,4 +1,4 @@
-package name.dargiri.web.util
+package my.scala.web.util
 
 import org.fusesource.scalate.servlet.ServletRenderContext._
 

@@ -1,4 +1,4 @@
-package name.dargiri.data.model
+package my.scala.data.model
 
 import org.scalatest.{Matchers, FlatSpec, FunSuite}
 import java.util.UUID

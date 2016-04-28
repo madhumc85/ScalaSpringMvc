@@ -1,4 +1,4 @@
-package name.dargiri.data.dao
+package my.scala.data.dao
 
 import javax.persistence.{EntityManager, PersistenceContext}
 

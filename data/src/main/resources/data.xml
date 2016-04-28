@@ -9,7 +9,7 @@
        ">
 
     <context:annotation-config/>
-    <context:component-scan base-package="name.dargiri.data"/>
+    <context:component-scan base-package="my.scala.data"/>
     <tx:annotation-driven transaction-manager="txManager"/>
 
     <bean id="txManager" class="org.springframework.orm.jpa.JpaTransactionManager">

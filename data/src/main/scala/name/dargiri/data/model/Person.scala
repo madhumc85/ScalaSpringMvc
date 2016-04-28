@@ -1,4 +1,4 @@
-package name.dargiri.data.model
+package my.scala.data.model
 
 import javax.persistence._
 import java.util.UUID

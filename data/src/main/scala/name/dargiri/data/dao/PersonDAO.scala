@@ -1,6 +1,6 @@
-package name.dargiri.data.dao
+package my.scala.data.dao
 
-import name.dargiri.data.model.Person
+import my.scala.data.model.Person
 import java.util.UUID
 import org.springframework.stereotype.Repository
 import scala.collection.JavaConversions._

@@ -4,8 +4,8 @@
              version="1.0">
     <persistence-unit name="JpaPersistenceUnit" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
-        <!--<class>name.dargiri.push.model.package$Group</class>-->
-        <!--<class>name.dargiri.push.model.package$Member</class>-->
+        <!--<class>my.scala.push.model.package$Group</class>-->
+        <!--<class>my.scala.push.model.package$Member</class>-->
         <!--<exclude-unlisted-classes>true</exclude-unlisted-classes>-->
     </persistence-unit>
 </persistence>

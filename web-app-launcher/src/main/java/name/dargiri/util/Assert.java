@@ -1,4 +1,4 @@
-package name.dargiri.util;
+package my.scala.util;
 
 import java.net.URL;
 

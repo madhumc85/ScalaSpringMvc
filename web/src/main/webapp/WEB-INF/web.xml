@@ -16,7 +16,7 @@
             <param-value>true</param-value>
         </init-param>
     </filter>
-    applicationContext
+
     <filter-mapping>
         <filter-name>characterEncodingFilter</filter-name>
         <url-pattern>/*</url-pattern>

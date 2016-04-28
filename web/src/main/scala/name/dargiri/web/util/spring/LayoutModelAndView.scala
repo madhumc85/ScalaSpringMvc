@@ -1,4 +1,4 @@
-package name.dargiri.web.util.spring
+package my.scala.web.util.spring
 
 import org.springframework.web.servlet.ModelAndView
 

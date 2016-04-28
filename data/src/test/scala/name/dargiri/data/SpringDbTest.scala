@@ -1,4 +1,4 @@
-package name.dargiri.data
+package my.scala.data
 
 import org.scalatest.{OptionValues, BeforeAndAfter, Matchers, FlatSpec}
 import org.springframework.test.context.{TestContextManager, ContextConfiguration}

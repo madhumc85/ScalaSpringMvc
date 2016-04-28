@@ -1,6 +1,6 @@
-package name.dargiri;
+package my.scala;
 
-import name.dargiri.util.Assert;
+import my.scala.util.Assert;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
 import org.eclipse.jetty.server.Connector;

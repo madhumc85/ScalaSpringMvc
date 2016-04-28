@@ -1,4 +1,4 @@
-package name.dargiri.data.model
+package my.scala.data.model
 
 import java.io.{Serializable => JSerial}
 import org.apache.commons.lang3.builder.{HashCodeBuilder, EqualsBuilder}

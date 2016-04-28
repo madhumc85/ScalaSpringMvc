@@ -1,7 +1,7 @@
-package name.dargiri.data.dao
+package my.scala.data.dao
 
-import name.dargiri.data.SpringDbTest
-import name.dargiri.data.model.Person
+import my.scala.data.SpringDbTest
+import my.scala.data.model.Person
 import java.util.UUID
 
 /**

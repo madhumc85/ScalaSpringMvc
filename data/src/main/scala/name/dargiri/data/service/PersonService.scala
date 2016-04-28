@@ -1,12 +1,12 @@
-package name.dargiri.data.service
+package my.scala.data.service
 
-import name.dargiri.data.dto.PersonDTO
+import my.scala.data.dto.PersonDTO
 import java.util.UUID
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional
 import org.springframework.beans.factory.annotation.Autowired
-import name.dargiri.data.dao.PersonDAO
-import name.dargiri.data.model.Person
+import my.scala.data.dao.PersonDAO
+import my.scala.data.model.Person
 
 /**
  * Created by dionis on 2/2/14.

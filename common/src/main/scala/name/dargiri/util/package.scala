@@ -1,4 +1,4 @@
-package name.dargiri
+package my.scala
 
 /**
  * Created by dionis on 2/1/14.

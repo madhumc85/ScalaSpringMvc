@@ -1,4 +1,4 @@
-package name.dargiri.data.dto
+package my.scala.data.dto
 
 import java.util.UUID
 
