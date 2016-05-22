@@ -11,8 +11,8 @@
     <modules>
         <module>common</module>
         <module>data</module>
-        <module>web-app-launcher</module>
         <module>web</module>
+        <!--<module>web-app-launcher</module>-->
     </modules>
 
     <properties>
@@ -21,9 +21,9 @@
         <!--<spring-version>3.2.3.RELEASE</spring-version>-->
         <spring-version>4.0.6.RELEASE</spring-version>
         <hibernate-version>4.2.2.Final</hibernate-version>
-        <java.source.version>1.7</java.source.version>
-        <java.target.version>1.7</java.target.version>
-        <java.compiler.version>1.7</java.compiler.version>
+        <java.source.version>1.8</java.source.version>
+        <java.target.version>1.8</java.target.version>
+        <java.compiler.version>1.8</java.compiler.version>
         <unit.tests.spring.profile>unit-tests-dev</unit.tests.spring.profile>
         <jackson-version>2.3.0</jackson-version>
     </properties>

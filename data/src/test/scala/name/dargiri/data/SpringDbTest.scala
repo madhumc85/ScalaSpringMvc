@@ -12,8 +12,10 @@ import org.springframework.transaction.support.DefaultTransactionDefinition
  */
 @ContextConfiguration(locations = Array("classpath:test-config.xml"))
 abstract class SpringDbTest extends FlatSpec with Matchers with BeforeAndAfter {
+
   @PersistenceContext
   val em: EntityManager = null
+
   @Autowired
   private val txManager: PlatformTransactionManager = null
 
